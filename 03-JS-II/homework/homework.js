@@ -297,6 +297,7 @@ function doWhile(numero) {
     //Retornar el valor final.
     //Usar el bucle do ... while.
     var limite = 0;
+
     do {
 
         numero = numero + 5;
