@@ -8,7 +8,7 @@ function crearGato(nombre, edad) {
     // Tu código:
 
 
-    var objeto = {
+    var ob = {
         nombre: nombre,
         edad: edad,
         meow: function() {
@@ -18,7 +18,8 @@ function crearGato(nombre, edad) {
         }
     };
 
-    return objeto;
+    return ob;
+
 }
 
 function agregarPropiedad(objeto, property) {
